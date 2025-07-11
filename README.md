@@ -27,6 +27,8 @@ The project implements a three-tier data lakehouse architecture:
 
 ### Bronze Layer - Data Ingestion
 
+**Data Source:** [NYC TAXI DATASET](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
 **Azure Data Factory Components:**
 - **HTTP Connector**: Connects to NYC Taxi website for data retrieval
 - **ForEach Activity**: Iterates through multiple data files
