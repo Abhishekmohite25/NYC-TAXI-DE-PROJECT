@@ -33,10 +33,16 @@ The project implements a three-tier data lakehouse architecture:
 - **IfElse Activity**: Implements conditional logic for data validation
 - **CopyData Activity**: Transfers data to Azure Data Lake Storage Gen2
 
+![Azure Data Factory 1](https://github.com/Abhishekmohite25/NYC-TAXI-DE-PROJECT/blob/5df70f6c13ce43e6095f42750c342f80f5c6c60b/Screenshots/adf1.png)
+
+![Azure Data Factory 2](https://github.com/Abhishekmohite25/NYC-TAXI-DE-PROJECT/blob/5df70f6c13ce43e6095f42750c342f80f5c6c60b/Screenshots/adf2.png)
+
 **Process:**
 1. Automated data extraction from NYC Taxi website
 2. Raw parquet files stored in bronze layer
 3. Metadata capture and error handling
+
+![Bronze ADLS](https://github.com/Abhishekmohite25/NYC-TAXI-DE-PROJECT/blob/5df70f6c13ce43e6095f42750c342f80f5c6c60b/Screenshots/bronze_adls.png)
 
 ### Silver Layer - Data Transformation
 
@@ -54,6 +60,8 @@ The project implements a three-tier data lakehouse architecture:
 - Removing unwanted data
 - Schema evolution handling
 
+![Silver ADLS](https://github.com/Abhishekmohite25/NYC-TAXI-DE-PROJECT/blob/5df70f6c13ce43e6095f42750c342f80f5c6c60b/Screenshots/silver_adls.png)
+
 ### Gold Layer - Analytics-Ready Data
 
 **Delta Lake Implementation:**
@@ -67,6 +75,8 @@ The project implements a three-tier data lakehouse architecture:
 - Support for concurrent reads and writes
 - Automatic schema evolution
 - Data lineage tracking
+
+![Gold ADLS](https://github.com/Abhishekmohite25/NYC-TAXI-DE-PROJECT/blob/5df70f6c13ce43e6095f42750c342f80f5c6c60b/Screenshots/gold_adls.png)
 
 ## Security Implementation
 
